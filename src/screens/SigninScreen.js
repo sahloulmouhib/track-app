@@ -16,7 +16,7 @@ const SigninScreen=({navigation})=>{
     const [email,setEmail]=useState('mouhib@hotmail.com')
     const [password,setPassword]=useState('sahloul1992')
     const {state,signin,clearErrorMessage}=useContext(AuthContext)
-    console.log(state)
+    //console.log(state)
 
     return <View style={styles.container}>
         <NavigationEvents 

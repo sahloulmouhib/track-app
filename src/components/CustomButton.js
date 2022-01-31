@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     },
     button:{
         
-        borderRadius:20,
+        borderRadius:10,
         marginVertical:20,
         alignItems:"center",
         justifyContent:"center",
@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
         fontWeight:"bold",
         alignSelf:"center",
         fontSize:20,
+        
     }
 })
 export default CustomButton
